@@ -9,6 +9,6 @@ prediction.setModelPath(os.path.join(execution_path, "squeezenet_weights_tf_dim_
 prediction.loadModel()
 
 
-predictions, probabilities = prediction.predictImage(os.path.join(execution_path, "giraffe.jpg"), result_count=5 )
+predictions, probabilities = prediction.predictImage(os.path.join(execution_path, "tesla.jpg"), result_count=5 )
 for eachPrediction, eachProbability in zip(predictions, probabilities):
     print(eachPrediction , " : " , eachProbability)
