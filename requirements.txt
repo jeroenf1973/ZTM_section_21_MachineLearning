@@ -1,0 +1,10 @@
+Package     Version
+----------- -------
+entrypoints 0.3    
+flake8      3.7.9  
+mccabe      0.6.1  
+pep8        1.7.1  
+pip         20.0.2 
+pycodestyle 2.5.0  
+pyflakes    2.1.1  
+setuptools  41.2.0 
